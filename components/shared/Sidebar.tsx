@@ -14,7 +14,8 @@ const Sidebar = () => {
     <aside className="sidebar">
       <div className="flex size-full flex-col gap-4">
         <Link href="/" className="sidebar-logo">
-          <Image src="/assets/images/logo-text.svg" alt="logo" width={180} height={28} />
+          {/* <Image src="/assets/images/logo-text.svg" alt="logo" width={180} height={28} /> */}
+          <h1 className='gradient-text font-semibold font-IBMPlex text-4xl text-center pl-4'>CloudEdit</h1>
         </Link>
 
         <nav className="sidebar-nav">
